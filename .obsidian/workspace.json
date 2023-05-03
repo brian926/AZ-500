@@ -11,8 +11,12 @@
             "id": "66e6050cc021ceb7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Manage Security Operation/Configure and Manage Azure Monitor.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -60,6 +64,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "6fb9ce38c8189191",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -81,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Implement Platform Protection/Implement Perimeter Security.md",
+                "file": "Manage Security Operation/Configure and Manage Azure Monitor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Implement Platform Protection/Implement Perimeter Security.md",
+                "file": "Manage Security Operation/Configure and Manage Azure Monitor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Implement Platform Protection/Implement Perimeter Security.md"
+                "file": "Manage Security Operation/Configure and Manage Azure Monitor.md"
               }
             }
           }
@@ -142,8 +154,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d1f26af3706b658b",
+  "active": "66e6050cc021ceb7",
   "lastOpenFiles": [
+    "Manage Security Operation/Configure and Manage Azure Monitor.md",
+    "Manage Security Operation",
     "Secure Data and Applications/Deploy and Secure Azure Key Vault.md",
     "Secure Data and Applications",
     "Manage Identity and Access/Secure Azure Solutions with Azure Active Directory.md",
