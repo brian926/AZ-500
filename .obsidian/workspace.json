@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Manage Security Operation/Configure and Manage Azure Monitor.md",
+                "file": "Manage Security Operation/Enable and Manage Microsoft Defender for Cloud.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Manage Security Operation/Configure and Manage Azure Monitor.md",
+                "file": "Manage Security Operation/Enable and Manage Microsoft Defender for Cloud.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Manage Security Operation/Configure and Manage Azure Monitor.md",
+                "file": "Manage Security Operation/Enable and Manage Microsoft Defender for Cloud.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Manage Security Operation/Configure and Manage Azure Monitor.md"
+                "file": "Manage Security Operation/Enable and Manage Microsoft Defender for Cloud.md"
               }
             }
           }
@@ -157,6 +157,7 @@
   "active": "66e6050cc021ceb7",
   "lastOpenFiles": [
     "Manage Security Operation/Configure and Manage Azure Monitor.md",
+    "Manage Security Operation/Enable and Manage Microsoft Defender for Cloud.md",
     "Manage Security Operation",
     "Secure Data and Applications/Deploy and Secure Azure Key Vault.md",
     "Secure Data and Applications",
