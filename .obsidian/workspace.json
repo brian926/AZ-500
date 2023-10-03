@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "daec09edb37a46b7",
+        "id": "014c48b3ce4118c0",
         "type": "tabs",
         "children": [
           {
-            "id": "66e6050cc021ceb7",
+            "id": "26cd04e9ca958980",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Manage Security Operation/Enable and Manage Microsoft Defender for Cloud.md",
+                "file": "Manage Security Operation/Configure and Monitor Microsoft Sentinel.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Manage Security Operation/Enable and Manage Microsoft Defender for Cloud.md",
+                "file": "Manage Security Operation/Configure and Monitor Microsoft Sentinel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Manage Security Operation/Enable and Manage Microsoft Defender for Cloud.md",
+                "file": "Manage Security Operation/Configure and Monitor Microsoft Sentinel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Manage Security Operation/Enable and Manage Microsoft Defender for Cloud.md"
+                "file": "Manage Security Operation/Configure and Monitor Microsoft Sentinel.md"
               }
             }
           }
@@ -154,9 +154,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "66e6050cc021ceb7",
+  "active": "26cd04e9ca958980",
   "lastOpenFiles": [
     "Manage Security Operation/Configure and Manage Azure Monitor.md",
+    "Manage Security Operation/Configure and Monitor Microsoft Sentinel.md",
     "Manage Security Operation/Enable and Manage Microsoft Defender for Cloud.md",
     "Manage Security Operation",
     "Secure Data and Applications/Deploy and Secure Azure Key Vault.md",
