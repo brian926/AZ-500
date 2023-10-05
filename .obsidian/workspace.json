@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "014c48b3ce4118c0",
+        "id": "ad228b70850bbd4b",
         "type": "tabs",
         "children": [
           {
-            "id": "26cd04e9ca958980",
+            "id": "4122fe3dd0b63ebd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Manage Security Operation/Configure and Monitor Microsoft Sentinel.md",
+                "file": "Secure Data and Applications/Configure Application Security Features.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Manage Security Operation/Configure and Monitor Microsoft Sentinel.md",
+                "file": "Secure Data and Applications/Configure Application Security Features.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Manage Security Operation/Configure and Monitor Microsoft Sentinel.md",
+                "file": "Secure Data and Applications/Configure Application Security Features.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Manage Security Operation/Configure and Monitor Microsoft Sentinel.md"
+                "file": "Secure Data and Applications/Configure Application Security Features.md"
               }
             }
           }
@@ -154,13 +154,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "26cd04e9ca958980",
+  "active": "4122fe3dd0b63ebd",
   "lastOpenFiles": [
-    "Manage Security Operation/Configure and Manage Azure Monitor.md",
+    "Pasted image 20231005101108.png",
+    "Secure Data and Applications/Pasted image 20231005100017.png",
+    "Secure Data and Applications/Deploy and Secure Azure Key Vault.md",
+    "Secure Data and Applications/Pasted image 20231005093823.png",
+    "Secure Data and Applications/Configure Application Security Features.md",
     "Manage Security Operation/Configure and Monitor Microsoft Sentinel.md",
+    "Manage Security Operation/Configure and Manage Azure Monitor.md",
     "Manage Security Operation/Enable and Manage Microsoft Defender for Cloud.md",
     "Manage Security Operation",
-    "Secure Data and Applications/Deploy and Secure Azure Key Vault.md",
     "Secure Data and Applications",
     "Manage Identity and Access/Secure Azure Solutions with Azure Active Directory.md",
     "Manage Identity and Access",
