@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Secure Data and Applications/Implement Storage Security.md",
+                "file": "Secure Data and Applications/Configure and Manage SQL Database Security.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Secure Data and Applications/Implement Storage Security.md",
+                "file": "Secure Data and Applications/Configure and Manage SQL Database Security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Secure Data and Applications/Implement Storage Security.md",
+                "file": "Secure Data and Applications/Configure and Manage SQL Database Security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Secure Data and Applications/Implement Storage Security.md"
+                "file": "Secure Data and Applications/Configure and Manage SQL Database Security.md"
               }
             }
           }
@@ -156,14 +156,22 @@
   },
   "active": "d1f26af3706b658b",
   "lastOpenFiles": [
-    "Secure Data and Applications/Pasted image 20231008164853.png",
-    "Secure Data and Applications/Configure Application Security Features.md",
+    "Secure Data and Applications/PNGs/Pasted image 20231009105908.png",
+    "Secure Data and Applications/PNGs/Pasted image 20231009104916.png",
     "Secure Data and Applications/Implement Storage Security.md",
-    "Secure Data and Applications/Pasted image 20231008163402.png",
-    "Secure Data and Applications/Pasted image 20231005101108.png",
-    "Secure Data and Applications/Pasted image 20231005100017.png",
+    "Secure Data and Applications/PNGs/Pasted image 20231005093823.png",
+    "Secure Data and Applications/Configure and Manage SQL Database Security.md",
+    "Secure Data and Applications/PNGs",
+    "Pasted image 20231009104700.png",
+    "Secure Data and Applications/PNGs/Pasted image 20231009104205.png",
+    "Secure Data and Applications/PNGs/Pasted image 20231009102702.png",
+    "Secure Data and Applications/PNGs/Pasted image 20231009101559.png",
+    "Secure Data and Applications/PNGs/Pasted image 20231009100952.png",
+    "Secure Data and Applications/PNGs/Pasted image 20231009100940.png",
+    "Secure Data and Applications/PNGs/Pasted image 20231008164853.png",
+    "Secure Data and Applications/Configure Application Security Features.md",
+    "Secure Data and Applications/PNGs/Pasted image 20231008163402.png",
     "Secure Data and Applications/Deploy and Secure Azure Key Vault.md",
-    "Secure Data and Applications/Pasted image 20231005093823.png",
     "Manage Security Operation/Configure and Monitor Microsoft Sentinel.md",
     "Manage Security Operation/Configure and Manage Azure Monitor.md",
     "Manage Security Operation/Enable and Manage Microsoft Defender for Cloud.md",
