@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ad228b70850bbd4b",
+        "id": "a790255a43cf1221",
         "type": "tabs",
         "children": [
           {
-            "id": "4122fe3dd0b63ebd",
+            "id": "45d6af9fec52ef85",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Secure Data and Applications/Configure Application Security Features.md",
+                "file": "Implement Platform Protection/Configure Network Security.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Secure Data and Applications/Configure Application Security Features.md",
+                "file": "Implement Platform Protection/Configure Network Security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Secure Data and Applications/Configure Application Security Features.md",
+                "file": "Implement Platform Protection/Configure Network Security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Secure Data and Applications/Configure Application Security Features.md"
+                "file": "Implement Platform Protection/Configure Network Security.md"
               }
             }
           }
@@ -154,21 +154,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4122fe3dd0b63ebd",
+  "active": "d1f26af3706b658b",
   "lastOpenFiles": [
-    "Secure Data and Applications/Configure and Manage SQL Database Security.md",
-    "Secure Data and Applications/PNGs/Pasted image 20231010143920.png",
+    "PNGs/Pasted image 20231011095616.png",
+    "PNGs/Pasted image 20231011095534.png",
+    "PNGs/Pasted image 20231011095404.png",
+    "PNGs/Pasted image 20231011094943.png",
+    "Implement Platform Protection/Implement Perimeter Security.md",
     "Secure Data and Applications/Configure Application Security Features.md",
-    "Secure Data and Applications/PNGs/Pasted image 20231009105908.png",
-    "Secure Data and Applications/PNGs/Pasted image 20231009104916.png",
-    "Secure Data and Applications/PNGs/Pasted image 20231009104205.png",
-    "Secure Data and Applications/PNGs/Pasted image 20231009102702.png",
-    "Secure Data and Applications/PNGs/Pasted image 20231009101559.png",
-    "Secure Data and Applications/PNGs/Pasted image 20231009100952.png",
-    "Secure Data and Applications/PNGs/Pasted image 20231009100940.png",
-    "Secure Data and Applications/PNGs/Pasted image 20231005093823.png",
-    "Secure Data and Applications/PNGs/Pasted image 20231008163402.png",
-    "Secure Data and Applications/PNGs",
+    "Implement Platform Protection/Configure Network Security.md",
+    "Secure Data and Applications/Configure and Manage SQL Database Security.md",
+    "PNGs/Pasted image 20231010143920.png",
+    "PNGs/Pasted image 20231009105908.png",
+    "PNGs/Pasted image 20231009104916.png",
+    "PNGs/Pasted image 20231009104205.png",
+    "PNGs/Pasted image 20231009102702.png",
+    "PNGs/Pasted image 20231009101559.png",
+    "PNGs/Pasted image 20231009100952.png",
+    "PNGs",
     "Secure Data and Applications/Implement Storage Security.md",
     "Secure Data and Applications/Deploy and Secure Azure Key Vault.md",
     "Manage Security Operation/Configure and Monitor Microsoft Sentinel.md",
@@ -178,7 +181,6 @@
     "Secure Data and Applications",
     "Manage Identity and Access/Secure Azure Solutions with Azure Active Directory.md",
     "Manage Identity and Access",
-    "Implement Platform Protection/Implement Perimeter Security.md",
     "Implement Platform Protection"
   ]
 }
