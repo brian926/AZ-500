@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Implement Platform Protection/Configure and Manage Host Security.md",
+                "file": "Implement Platform Protection/Enable Containers Security.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Implement Platform Protection/Configure and Manage Host Security.md",
+                "file": "Implement Platform Protection/Enable Containers Security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Implement Platform Protection/Configure and Manage Host Security.md",
+                "file": "Implement Platform Protection/Enable Containers Security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Implement Platform Protection/Configure and Manage Host Security.md"
+                "file": "Implement Platform Protection/Enable Containers Security.md"
               }
             }
           }
@@ -156,8 +156,10 @@
   },
   "active": "45d6af9fec52ef85",
   "lastOpenFiles": [
-    "Implement Platform Protection/Configure Network Security.md",
     "Implement Platform Protection/Configure and Manage Host Security.md",
+    "Implement Platform Protection/Enable Containers Security.md",
+    "PNGs/Pasted image 20231013135651.png",
+    "Implement Platform Protection/Configure Network Security.md",
     "PNGs/Pasted image 20231012104715.png",
     "PNGs/Pasted image 20231012105302.png",
     "PNGs/Pasted image 20231012103438.png",
@@ -170,7 +172,6 @@
     "Secure Data and Applications/Configure Application Security Features.md",
     "Secure Data and Applications/Configure and Manage SQL Database Security.md",
     "PNGs/Pasted image 20231010143920.png",
-    "PNGs/Pasted image 20231009105908.png",
     "PNGs",
     "Secure Data and Applications/Implement Storage Security.md",
     "Secure Data and Applications/Deploy and Secure Azure Key Vault.md",
