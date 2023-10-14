@@ -11,11 +11,9 @@
             "id": "45d6af9fec52ef85",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Implement Platform Protection/Enable Containers Security.md",
-                "mode": "source",
-                "source": false
+                "file": "PNGs/Pasted image 20231014093845.png"
               }
             }
           }
@@ -93,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Implement Platform Protection/Enable Containers Security.md",
+                "file": "PNGs/Pasted image 20231014093845.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Implement Platform Protection/Enable Containers Security.md",
+                "file": "PNGs/Pasted image 20231014093845.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Implement Platform Protection/Enable Containers Security.md"
+                "file": "PNGs/Pasted image 20231014093845.png"
               }
             }
           }
@@ -154,10 +152,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "45d6af9fec52ef85",
+  "active": "d1f26af3706b658b",
   "lastOpenFiles": [
-    "Implement Platform Protection/Configure and Manage Host Security.md",
     "Implement Platform Protection/Enable Containers Security.md",
+    "PNGs/Pasted image 20231014093845.png",
+    "PNGs/Pasted image 20231014093037.png",
+    "PNGs/Pasted image 20231014093544.png",
+    "Implement Platform Protection/Configure and Manage Host Security.md",
     "PNGs/Pasted image 20231013135651.png",
     "Implement Platform Protection/Configure Network Security.md",
     "PNGs/Pasted image 20231012104715.png",
@@ -166,12 +167,9 @@
     "PNGs/Pasted image 20231012103311.png",
     "PNGs/Pasted image 20231011095616.png",
     "PNGs/Pasted image 20231011095534.png",
-    "PNGs/Pasted image 20231011095404.png",
-    "PNGs/Pasted image 20231011094943.png",
     "Implement Platform Protection/Implement Perimeter Security.md",
     "Secure Data and Applications/Configure Application Security Features.md",
     "Secure Data and Applications/Configure and Manage SQL Database Security.md",
-    "PNGs/Pasted image 20231010143920.png",
     "PNGs",
     "Secure Data and Applications/Implement Storage Security.md",
     "Secure Data and Applications/Deploy and Secure Azure Key Vault.md",
