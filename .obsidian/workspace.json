@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "a790255a43cf1221",
+        "id": "8b54cda5c15332df",
         "type": "tabs",
         "children": [
           {
-            "id": "45d6af9fec52ef85",
+            "id": "630aa97eedaad3b4",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "PNGs/Pasted image 20231014093845.png"
+                "file": "Manage Identity and Access/Deploy Azure AD Identity Protection.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -91,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PNGs/Pasted image 20231014093845.png",
+                "file": "Manage Identity and Access/Deploy Azure AD Identity Protection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PNGs/Pasted image 20231014093845.png",
+                "file": "Manage Identity and Access/Deploy Azure AD Identity Protection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PNGs/Pasted image 20231014093845.png"
+                "file": "Manage Identity and Access/Deploy Azure AD Identity Protection.md"
               }
             }
           }
@@ -154,6 +156,13 @@
   },
   "active": "d1f26af3706b658b",
   "lastOpenFiles": [
+    "PNGs/Pasted image 20231016141851.png",
+    "Manage Identity and Access/Implement Hybrid Identity.md",
+    "Manage Identity and Access/Deploy Azure AD Identity Protection.md",
+    "PNGs/Pasted image 20231016141223.png",
+    "PNGs/Pasted image 20231016140944.png",
+    "PNGs/Pasted image 20231016140938.png",
+    "PNGs/Pasted image 20231016140837.png",
     "Implement Platform Protection/Enable Containers Security.md",
     "PNGs/Pasted image 20231014093845.png",
     "PNGs/Pasted image 20231014093037.png",
@@ -163,10 +172,6 @@
     "Implement Platform Protection/Configure Network Security.md",
     "PNGs/Pasted image 20231012104715.png",
     "PNGs/Pasted image 20231012105302.png",
-    "PNGs/Pasted image 20231012103438.png",
-    "PNGs/Pasted image 20231012103311.png",
-    "PNGs/Pasted image 20231011095616.png",
-    "PNGs/Pasted image 20231011095534.png",
     "Implement Platform Protection/Implement Perimeter Security.md",
     "Secure Data and Applications/Configure Application Security Features.md",
     "Secure Data and Applications/Configure and Manage SQL Database Security.md",
