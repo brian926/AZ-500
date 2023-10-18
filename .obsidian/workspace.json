@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Manage Identity and Access/Deploy Azure AD Identity Protection.md",
+                "file": "Manage Identity and Access/Configure Azure AD Privileged Identity Management.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Manage Identity and Access/Deploy Azure AD Identity Protection.md",
+                "file": "Manage Identity and Access/Configure Azure AD Privileged Identity Management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Manage Identity and Access/Deploy Azure AD Identity Protection.md",
+                "file": "Manage Identity and Access/Configure Azure AD Privileged Identity Management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Manage Identity and Access/Deploy Azure AD Identity Protection.md"
+                "file": "Manage Identity and Access/Configure Azure AD Privileged Identity Management.md"
               }
             }
           }
@@ -156,9 +156,12 @@
   },
   "active": "d1f26af3706b658b",
   "lastOpenFiles": [
+    "PNGs/Pasted image 20231018104321.png",
+    "PNGs/Pasted image 20231018104218.png",
+    "Manage Identity and Access/Deploy Azure AD Identity Protection.md",
+    "Manage Identity and Access/Configure Azure AD Privileged Identity Management.md",
     "PNGs/Pasted image 20231016141851.png",
     "Manage Identity and Access/Implement Hybrid Identity.md",
-    "Manage Identity and Access/Deploy Azure AD Identity Protection.md",
     "PNGs/Pasted image 20231016141223.png",
     "PNGs/Pasted image 20231016140944.png",
     "PNGs/Pasted image 20231016140938.png",
@@ -170,8 +173,6 @@
     "Implement Platform Protection/Configure and Manage Host Security.md",
     "PNGs/Pasted image 20231013135651.png",
     "Implement Platform Protection/Configure Network Security.md",
-    "PNGs/Pasted image 20231012104715.png",
-    "PNGs/Pasted image 20231012105302.png",
     "Implement Platform Protection/Implement Perimeter Security.md",
     "Secure Data and Applications/Configure Application Security Features.md",
     "Secure Data and Applications/Configure and Manage SQL Database Security.md",
