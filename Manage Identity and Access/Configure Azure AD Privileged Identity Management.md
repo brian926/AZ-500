@@ -97,3 +97,46 @@ Privileged Identity Management supports the following scenarios:
 - Request activation of a role that requires approval
 - View the status of your request to activate
 - Complete your task in Azure AD if activation was approved
+
+## Implement Privileged Identity Management Onboarding
+The first **Global Administrator** to use PIM in your instance of Microsoft Entra ID is automatically assigned the **Security Administrator** and **Privileged Role Administrator** roles in the directory. This person must be an eligible Microsoft Entra user. Only privileged role administrators can manage the Microsoft Entra directory role assignments of users. In addition, you can choose to run the security wizard that walks you through the initial discovery and assignment experience.
+
+Users or members of a group assigned to the Owner or User Access Administrator roles, and Global Administrators that enable subscription management in Microsoft Entra ID, are Resource Administrators. These administrators can assign roles, configure role settings, and review access by using PIM for Azure resources.
+
+No one else in your Microsoft Entra organization gets write access by default, though, including other Global administrators. Other Global administrators, Security administrators, and Security readers have read-only access to Privileged Identity Management. To grant access to Privileged Identity Management, the first user can assign others to the **Privileged Role Administrator** role.
+
+## Explore Privileged Identity Management Configuration Settings
+Activation Settings:
+- **Activation duration**. Set the maximum time, in hours, that a role stays active before it expires. This value can be from one to 24 hours.
+- **Require multifactor authentication on activation**. You can require users who are eligible for a role to prove who they are using Microsoft Entra multifactor authentication (MFA) before they can activate. Multifactor authentication ensures that the user is who they say they are with reasonable certainty. Enforcing this option protects critical resources in situations when the user account might have been compromised.
+- **Require justification**. You can require that users enter a business justification when they activate.
+- **Require approval to activate**. If setting multiple approvers, approval completes as soon as one of them approves or denies. You can't require approval from at least two users.
+
+Assignment Settings:
+- **Allow permanent eligible assignment**. Global admins and Privileged role admins can assign permanent eligible assignment. They can also require that all eligible assignments have a specified start and end date.
+- **Allow permanent active assignment**. Global admins and Privileged role admins can assign active eligible assignment. They can also require that all active assignments have a specified start and end date.
+
+Notification settings
+- Notifications can be sent when members are assigned as eligible in a role, assigned as active in a role, and when the role is activated.
+- Notifications can be sent to Admins, Requestors, and Approvers
+
+## Implement a Privileged Identity Management Workflow
+By configuring Microsoft Entra PIM to manage our elevated access roles in Microsoft Entra ID, we now have JIT access for more than 28 configurable privileged roles. We can also monitor access, audit account elevations, and receive additional alerts through a management dashboard in the Azure portal.
+
+Elevated access includes job roles that need greater access, including support, resource administrators, resource owners, service administrators, and global administrators. We manage role-based access at the resource level. Because elevated access accounts could be misused if they’re compromised, we rationalize new requests for elevated access and perform regular re-attestation for elevated roles.
+Diagram of elevated access workflow:
+![[Pasted image 20231019075545.png]]
+
+Permanent administrators have persistent elevated role connections; whereas eligible administrators have privileged access only when they need it. The eligible administrator role is inactive until the employee needs access, then they complete an activation process and become an active administrator for a set amount of time.
+
+Microsoft Entra PIM uses administrative roles, such as tenant admin and global admin, to manage temporary access to various roles. With Microsoft Entra PIM, you can manage the administrators by adding or removing permanent or eligible administrators to each role. Microsoft Entra PIM includes several built-in Microsoft Entra roles as well as Azure that we manage.
+
+To activate a role, an eligible admin will initialize Microsoft Entra PIM in the Azure portal and request a time-limited role activation. The activation is requested using the Activate my role option in Microsoft Entra PIM. Users requesting activation must satisfy conditional access policies to ensure that they are coming from authorized devices and locations, and their identities must be verified through multifactor authentication.
+
+To help secure transactions while enabling mobility, we use Microsoft Entra PIM to customize role activation variables in Azure, including the number of sign-in attempts, the length of time the role is activated after sign-in, and the type of credentials required (such as single sign-in or multifactor authentication).
+
+We can track how employees and admins are using their privileged roles by viewing the audit history or by setting up a regular access review. Both options are available through the PIM dashboard in the Azure portal.
+
+The PIM audit log tracks changes in privileged role assignments and role activation history. We use the audit log to view all user assignments and activations within a specified period. The audit history helps us determine, in real time, which accounts haven’t signed in recently, or if employees have changed roles.
+
+Access reviews can be performed by an assigned reviewer, or employees can review themselves. This is an effective way to monitor who still needs access, and who can be removed.
