@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "8b54cda5c15332df",
+        "id": "29b47a46b4c08931",
         "type": "tabs",
         "children": [
           {
-            "id": "630aa97eedaad3b4",
+            "id": "c9f94496b9ff5143",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Manage Identity and Access/Design an Enterprise Governance Strategy.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Manage Identity and Access/Design an Enterprise Governance Strategy.md",
+                "file": "PNGs/Pasted image 20231020085645.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Manage Identity and Access/Design an Enterprise Governance Strategy.md",
+                "file": "PNGs/Pasted image 20231020085645.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Manage Identity and Access/Design an Enterprise Governance Strategy.md"
+                "file": "PNGs/Pasted image 20231020085645.png"
               }
             }
           }
@@ -156,21 +152,20 @@
   },
   "active": "d1f26af3706b658b",
   "lastOpenFiles": [
+    "Manage Identity and Access/Design an Enterprise Governance Strategy.md",
+    "PNGs/Pasted image 20231020085645.png",
+    "PNGs/Pasted image 20231020085259.png",
     "PNGs/Pasted image 20231019084718.png",
     "PNGs/Pasted image 20231019084532.png",
     "PNGs/Pasted image 20231019084133.png",
     "PNGs/Pasted image 20231019084117.png",
     "PNGs/Pasted image 20231019083912.png",
     "Manage Identity and Access/Configure Azure AD Privileged Identity Management.md",
-    "Manage Identity and Access/Design an Enterprise Governance Strategy.md",
     "PNGs/Pasted image 20231019075545.png",
     "PNGs/Pasted image 20231018104321.png",
     "PNGs/Pasted image 20231018104218.png",
     "Manage Identity and Access/Deploy Azure AD Identity Protection.md",
-    "PNGs/Pasted image 20231016141851.png",
     "Manage Identity and Access/Implement Hybrid Identity.md",
-    "PNGs/Pasted image 20231016141223.png",
-    "PNGs/Pasted image 20231016140944.png",
     "Implement Platform Protection/Enable Containers Security.md",
     "Implement Platform Protection/Configure and Manage Host Security.md",
     "Implement Platform Protection/Configure Network Security.md",
