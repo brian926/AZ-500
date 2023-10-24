@@ -46,7 +46,7 @@ With Azure AD DS-joined devices, applications can use the Kerberos and New Techn
 
 If on-premises AD DS and Azure AD are configured for federated authentication using Active Directory Federation Services (ADFS), then there's no (current/valid) password hash available in Azure DS. Azure AD user accounts created before fed auth was implemented might have an old password hash that doesn't match a hash of their on-premises password. Hence Azure AD DS won't validate the user's credentials.
 
-## Roles in Azure AD
+## Investigate Roles in Microsoft Entra ID
 Azure AD built-in roles fall into the following three broad categories
 1. Azure AD-specific roles - Roles grant permissions to manage resources within Azure AD only
 2. Service-specific roles - built service-specific roles that grant permissions to manage all features within the service.
