@@ -132,14 +132,55 @@ New-AzUserAssignedIdentity -ResourceGroupName RG1 -Name VMID $vm = Get-AzVM -Res
 **A:** *Deny*. We want to deny the creation or modification of a resource if the CostCenter tag is not present.
 - [[Design an Enterprise Governance Strategy]]
 
-**Q: **
-**A:**
+**Q: You are evaluating the Azure Policy configurations to identify any required custom initiatives and polices. You need to run workloads in Azure that are compliant with the following requlations:**
+- FedRAMP High
+- PCI DSS 3.2.1
+- GDPR
+- ISO 27001:2013
+**For which regulation should you create custom initiatives?**
+**A:** *GDRP*. To run workloads that are compliant with GDPR, custom initiatives should be created. GDPR compliance initiatives are not yet available in Azure.
+- [[Design an Enterprise Governance Strategy]]
 
-**Q: **
-**A:**
+**Q: You have the following security policy deployed to an Azure subscription**
+```json
+policyRule: { 
+	if: { 
+		allOf: [ 
+			{ 
+				field: "type", 
+				equals: "Microsoft.Storage/storageAccounts" 
+			}, 
+			{ 
+				field: "Microsoft.Storage/storageAccounts/allowSharedKeyAccess", 
+				equals: "true" 
+			} 
+		] 
+	}, 
+	then: { 
+		effect: "Deny" 
+	} 
+}
+```
+**You successfully deploy a new storage account. Which statements is true?**
+**A:** *Usage of Azure AD authentication is enforced*. Enforcing Azure AD authentication prevents using shared keys, and leaves only data plane RBAC as an authentication option. 
+- [[Design an Enterprise Governance Strategy]]
 
-**Q: **
-**A:**
+**Q: You need to recommend a solution that uses crawling technology of Microsoft to discover and actively scan assets within an online infrastructure, and must also discover new connections over time. What should you include in the recommendation?**
+**A:** *Microsoft Defender External Attack Surface Management (EASM)*. Defender EASM applies crawling technology to Microsoft to discover assets that are related to your known online infrastructure and actively scans these assets to discover new connections over time.
+- [[Enable and Manage Microsoft Defender for Cloud]]
 
-**Q: **
-**A:**
+**Q: You configure Microsoft Sentinel to connect to different data sources and are unable to configure a connector that uses an Azure Function API connection. Which permissions should you change?**
+**A:** *read and write permissions for Azure Functions*. You need to have read and write permissions to Azure Functions to configure a connector that uses an Azure Functions API connection.
+- [[Configure and Monitor Microsoft Sentinel]]
+
+**Q: You have a data connector for Microsoft Sentinel and need to configure the connector to collect logs from Conditional Access in Azure AD. Which log should you connect to Microsoft Sentinel?**
+**A:** *sign-in logs*. Sign-in logs include information about sign-ins and how resources are used by your users.
+- [[Configure and Monitor Microsoft Sentinel]]
+
+**Q: You plan to deploy storage accounts and limit the use of shared access key access by using Azure Policy. Which two effects in an Azure policy will audit any attempts to use shared access keys?**
+**A:** *Audit* and *Deny*. `Audit` and `Deny` will both audit any attempts to use storage account shared keys.
+- [[Design an Enterprise Governance Strategy]]
+
+**Q: You have an Azure key vault and need to ensure that a user can read and write keys to the Key Vault. Which role should you assign to the user?**
+**A:** *Key Vault Crypto Officer*. Key Vault Crypto Officer has all the permissions to the secrets in the Key Vault.
+- [[Deploy and Secure Azure Key Vault]]
