@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c22397a6d07331ce",
+            "id": "176ae4cfba6a7ed1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,12 +20,24 @@
             }
           },
           {
-            "id": "c9f94496b9ff5143",
+            "id": "c22397a6d07331ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Manage Identity and Access/Secure Azure Solutions with Microsoft Entra ID.md",
+                "file": "Docs/Plan a Microsoft Entra multifactor authentication deployment.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c669003137d6cfcf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docs/Conditional Access Session.md",
                 "mode": "source",
                 "source": false
               }
@@ -166,10 +178,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c22397a6d07331ce",
+  "active": "176ae4cfba6a7ed1",
   "lastOpenFiles": [
-    "Manage Identity and Access/Secure Azure Solutions with Microsoft Entra ID.md",
+    "Docs/Conditional Access Session.md",
+    "Docs/Plan a Microsoft Entra multifactor authentication deployment.md",
     "Az Practice Exam.md",
+    "Docs/Plan a Conditional Access deployment.md",
+    "Docs/Authentication and verification methods are available in Microsoft Entra ID.md",
+    "PNGs/Pasted image 20231106134339.png",
+    "Docs/Least privileged Roles by task in Microsoft Entra ID.md",
+    "Docs/Create an access review of Azure resource and Microsoft Entra roles in PIM.md",
+    "Manage Identity and Access/Secure Azure Solutions with Microsoft Entra ID.md",
+    "Docs",
     "Manage Identity and Access/Configure Microsoft Entra Privileged Identity Management.md",
     "Manage Identity and Access/Deploy Microsoft Entra ID Protection.md",
     "Secure Data and Applications/Configure Application Security Features.md",
@@ -183,7 +203,6 @@
     "PNGs/Pasted image 20231019083912.png",
     "PNGs/Pasted image 20231019075545.png",
     "PNGs/Pasted image 20231018104321.png",
-    "PNGs/Pasted image 20231018104218.png",
     "Manage Identity and Access/Implement Hybrid Identity.md",
     "Implement Platform Protection/Enable Containers Security.md",
     "Implement Platform Protection/Configure and Manage Host Security.md",

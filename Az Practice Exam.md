@@ -184,3 +184,34 @@ policyRule: {
 **Q: You have an Azure key vault and need to ensure that a user can read and write keys to the Key Vault. Which role should you assign to the user?**
 **A:** *Key Vault Crypto Officer*. Key Vault Crypto Officer has all the permissions to the secrets in the Key Vault.
 - [[Deploy and Secure Azure Key Vault]]
+
+**Q: You need to delegate the ability to configure sign-in risk policies, which role should you assign?**
+**A:** *Conditional Access Administrator*. Security administrators have permissions to manage security-related features in the Microsoft 365 Defender portal, Microsoft Entra Identity Protection, Microsoft Entra authentication, Azure Information Protection (AIP), and Microsoft 365 Defender portal.
+- [[Create an access review of Azure resource and Microsoft Entra roles in PIM]]
+- [[Least privileged Roles by task in Microsoft Entra ID]]
+- [[Authentication and verification methods are available in Microsoft Entra ID]]
+- [[Secure Azure Solutions with Microsoft Entra ID#Investigate Roles in Microsoft Entra ID|Investigate Roles in Microsoft Entra]]
+
+**Q: Users have both Windows and non-Windows devices. All users have smart phones. You plan on implement Microsoft Entra Multi-Factor Authentication (MFA) and need to ensure that MFA is used to authenticate users to Azure resources without any additional cost. Which three MFA method should you implement?**
+**A:** *SMS verification*, *the Microsoft Authenticator app*, and *voice call verification*. The Microsoft Authenticator app, SMS verification, and voice call verification only require a smart phone. Because all users already have smart phones, those three options don’t require any additional cost.
+- [[Plan a Microsoft Entra multifactor authentication deployment]]
+
+**Q: You need to ensure that users signing into the Azure Portal are prompted to sign in every 48 hours, what should you configure?**
+**A:** *Conditional Access Sign-in frequency*. Sign-in frequency defines the time period before a user is asked to sign in again when attempting to access a resource.
+- [[Plan a Conditional Access deployment]]
+- [[Conditional Access Session]]
+- [[Deploy Microsoft Entra ID Protection#Configure Conditional Access Conditions|Configure Conditional Access Conditions]]
+
+**Q: You use Azure Blueprints to deploy resources to a resource group named RG1. After the deployment, you try to add a disk to a VM created by using Blueprints, but you get an access denied error. You open RG1 and check your access and you notice that you are listed as part of the Virtual Machine Contributor role for RG1, and there are no deny assignments or classic administrators in the resource group scope. Why are you unable to manage the VM?**
+**A:** *Blueprints created a deny assignment for the VM resource*. Blueprints must have created a deny assignment at the resource level.
+- [[Design an Enterprise Governance Strategy]]
+- 
+
+**Q: **
+**A:**
+
+**Q: **
+**A:**
+
+**Q: **
+**A:**
