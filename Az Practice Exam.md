@@ -205,7 +205,69 @@ policyRule: {
 **Q: You use Azure Blueprints to deploy resources to a resource group named RG1. After the deployment, you try to add a disk to a VM created by using Blueprints, but you get an access denied error. You open RG1 and check your access and you notice that you are listed as part of the Virtual Machine Contributor role for RG1, and there are no deny assignments or classic administrators in the resource group scope. Why are you unable to manage the VM?**
 **A:** *Blueprints created a deny assignment for the VM resource*. Blueprints must have created a deny assignment at the resource level.
 - [[Design an Enterprise Governance Strategy]]
-- 
+
+**Q: You create a role by using the following JSON**
+```json
+{ 
+	"Name": "Virtual Machine Operator", 
+	"Id": "88888888-8888-8888-8888-888888888888", 
+	"IsCustom": true, "Description": "Can monitor and restart virtual machines.",
+	"Actions": [ 
+		"Microsoft.Storage/*/read", 
+		"Microsoft.Network/*/read", 
+		"Microsoft.Compute/virtualMachines/start/action",
+		"Microsoft.Compute/virtualMachines/restart/action", 
+		"Microsoft.Authorization/*/read", 
+		"Microsoft.ResourceHealth/availabilityStatuses/read",
+		"Microsoft.Resources/subscriptions/resourceGroups/read",
+		"Microsoft.Insights/alertRules/*", 
+		"Microsoft.Insights/diagnosticSettings/*", 
+		"Microsoft.Support/*" 
+	], 
+	"NotActions": [], 
+	"DataActions": [], 
+	"NotDataActions": [], 
+	"AssignableScopes": ["/subscriptions/*"] 
+}
+```
+**A user that is part of the new role reports that they are unable to restart a VM by using a PowerShell script, what should you do to ensure that the user can restart the VM?**
+**A:** *Add `Microsoft.Compute/*/read` to the list of `Actions` in the role.* The role needs read access to VMs to restart them.
+- [[Design an Enterprise Governance Strategy]]
+- [[Azure Custom roles]]
+
+**Q: You create a Microsoft Entra app registration and need to consent to the use of a given API in your app for all users. What should you add to your app registration?**
+**A:** *a permission*. A permission allows the application to use a given API.
+- [[Configure Application Security Features]]
+
+**Q: You need to provide an administrator with the ability to manage custom RBAC roles. Which role should you assign to the administrator?**
+**A:** *User Access Administrator*. User Access Administrator is the least privileged role that grants access to `Microsoft.Authorization/roleDefinition/write`.
+- [[Secure Azure Solutions with Microsoft Entra ID]]
+
+**Q: You have an Azure subscription named Sub1 that is linked to a Microsoft Entra tenant. The tenant contains a user named Admin1 and Sub1 contains an Azure Policy definition assighment named Assignment1. The definition includes the deployIfNotExists effect. You need to grant Admin1 permission to include a remediation task for Assignment1, which role should you assign to Admin1?**
+**A:** *Resource Policy Contributor*. Resource Policy Contributor grants permissions to create and modify resource policy, create support ticket, and read resources and hierarchy.
+- [[Design an Enterprise Governance Strategy#Compare and Contrast Azure RBAC vs Azure Policies|Compare and Contrast Azure RBAC vs Azure Policies]]
+
+**Q: You have an Azure subscription that contains Microsoft Entra tenant and an Azure web app named App1. A user named User1 needs permission to manage App1, which role should you assign to User1?**
+**A:** *Cloud Application Administrator*. Since App1 is an app in Azure, this role provides administrative permissions to App1.
+- [[Secure Azure Solutions with Microsoft Entra ID]]
+
+**Q: You have an Azure VNet named VNet1 in a resource group named RG1. VNet contains the following subnets:**
+- Subnet1: 10.0.1.0/24
+- Subnet2: 10.0.2.0/24
+**You need to configure access to a storage account named sa1 in a resource group named RG2 and you must ensure that sa1 can only be accessed from Subnet2. What should you run?**
+**A:** The correct CLI command adds a rule to allow access from the 10.0.2.0/24 subnet to the storage account.
+`az storage account network-rule add --resource-group "RG2" --account-name "SA1" --ip-address "10.0.2.0/24" az storage account update --default-action deny --name sa1 --resource-group RG2`
+- [[Configure Network Security]]
+
+**Q: You have an Azure App Service web app named App1 and users authenticate to App1 by using Microsoft Entra. You plan to implement network security controls for App1 and need to ensure that only authenticated users from your corporate network can sign in to App1. The solution must not require the configuration of virtual network rules, which two actions should you perform?**
+**A:** *Configure App Service authentication* and *Configure network conditions to Conditional Access*. You can configure the network conditions to Conditional Access, ensuring that the location is determined by the public IP address a client provides to Microsoft Entra or the GPS coordinates provided by the Microsoft Authenticator app. You need to configure App Service authentication, specifically the Action to take when request is not authenticated option.
+- [[Deploy Microsoft Entra ID Protection]]
+- [[Configure Network Security]]
+- [[Authentication and authorization in Azure App Service and Azure Functions]]
+- [[Using the location condition in a Conditional Access policy]]
+
+**Q: **
+**A:**
 
 **Q: **
 **A:**

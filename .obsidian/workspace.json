@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "29b47a46b4c08931",
+        "id": "3622893c27f6e154",
         "type": "tabs",
         "children": [
           {
-            "id": "176ae4cfba6a7ed1",
+            "id": "cd8c8bfdd7b93b9d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,24 +20,24 @@
             }
           },
           {
-            "id": "c22397a6d07331ce",
+            "id": "aa43567d376591be",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/Plan a Microsoft Entra multifactor authentication deployment.md",
+                "file": "Docs/Using the location condition in a Conditional Access policy.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c669003137d6cfcf",
+            "id": "67c457e0ea3fc3f3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/Conditional Access Session.md",
+                "file": "Docs/Authentication and authorization in Azure App Service and Azure Functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -178,11 +178,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "176ae4cfba6a7ed1",
+  "active": "cd8c8bfdd7b93b9d",
   "lastOpenFiles": [
+    "Docs/Using the location condition in a Conditional Access policy.md",
+    "Az Practice Exam.md",
+    "Docs/Authentication and authorization in Azure App Service and Azure Functions.md",
+    "Compar.md",
+    "Docs/Azure Custom roles.md",
     "Docs/Conditional Access Session.md",
     "Docs/Plan a Microsoft Entra multifactor authentication deployment.md",
-    "Az Practice Exam.md",
     "Docs/Plan a Conditional Access deployment.md",
     "Docs/Authentication and verification methods are available in Microsoft Entra ID.md",
     "PNGs/Pasted image 20231106134339.png",
@@ -214,7 +218,6 @@
     "Secure Data and Applications/Deploy and Secure Azure Key Vault.md",
     "Manage Security Operation/Configure and Monitor Microsoft Sentinel.md",
     "Manage Security Operation/Configure and Manage Azure Monitor.md",
-    "Manage Security Operation/Enable and Manage Microsoft Defender for Cloud.md",
     "Manage Security Operation",
     "Secure Data and Applications",
     "Manage Identity and Access",
