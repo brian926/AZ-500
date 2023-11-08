@@ -266,11 +266,43 @@ policyRule: {
 - [[Authentication and authorization in Azure App Service and Azure Functions]]
 - [[Using the location condition in a Conditional Access policy]]
 
-**Q: **
-**A:**
+**Q: You have a VNet that contains an Azure Kubernetes Service (AKS) workload and an internal load balancer. Multiple VNets are managed by multiple teams and you are unable to change any of the IP addresses. You need to ensure that clients from VNets in your Azure Subscription can access the AKS cluster by using the internal load balancer, what should you do?**
+**A:** *Create a private link service on the virtual network and instruct users to access the cluster by using a private link endpoint in their virtual networks.* A private link service will allow access from outside the virtual network to an endpoint by using NAT. Since you do not control the IP addressing for other virtual networks, this ensures connectivity even if IP addresses overlap. Once a private link service is used in the load balancer, other users can create a private endpoint on virtual networks to access the load balancer. 
+- [[Configure Network Security#Deploy Private Links|Deploy Private Links]]
 
-**Q: **
-**A:**
+**Q: You have an Azure subscription that contains the following resources:**
+- Storage accounts
+- Virtual Machines
+- Azure Firewall
+- Azure Key Vault
+- Azure SQL Databases
+**Which three resources support service endpoints?**
+**A:** *Azure Key Vault*, *Azure SQL Databases*, and *storage accounts*. You can configure service endpoints for Azure Storage, Key Vault, and Azure SQL Database.
+- [[Configure Network Security]]
+
+**Q: You have a VM named VM1 and a storage account named storage1 and you need to ensure that VM1 can access storage1 over the Azure backbone network. What should you implement?**
+**A:** *service endpoints*. Service endpoints route the traffic inside of Azure backbone, allowing access to the entire service, for example, all Microsoft SQL servers or the storage accounts of all customers.
+- [[Integrate Azure Services with Virtual Networks for Network Isolation#Compare Private Endpoints and Service Endpoints|Compare Private Endpoints and Service Endpoints]]
+
+**Q: You have a VNet named VNet1 which contains the following subnets:**
+- Subnet1: Has a connected virtual machine
+- Subnet2: Has a `Microsoft.Storage` service endpoint
+- Subnet3: Has subnet delegation to the `Microsoft.Web/serverFarms` service
+- Subnet4: Has no additional configurations
+**You need to deploy an Azure SQL managed instance named managed1 to VNet1, which subnets can you connect managed1?**
+**A:** *Subnet2, Subnet3, and Subnet4 only*. You can deploy an SQL managed instance to a dedicated virtual network subnet that does not have any resource connected. The subnet can have a service endpoint or can be delegated for a different service. For this scenario, you can deploy managed1 to Subnet2, Subnet3, and Subnet4 only. You cannot deploy managed1 to Subnet1 because Subnet1 has a connected virtual machine.
+- [[Configure Network Security]]
+- [[Connectivity Architecture for Azure SQL Managed Instance]]
+
+**Q: You have an Azure App Service web app named App1 and need to configure network controls for App1. App1 must only allow user access through Azure Front Door, which two components should you implement?**
+**A:** *access restrictions based on service tag* and *header filters*. Traffic from Front Door to the app originates from a well-known set of IP ranges defined in the `AzureFrontDoor.Backend` service tag. This includes every Front Door. To ensure traffic only originates from your specific instance, you will need to further filter the incoming requests based on the unique HTTP header that Front Door sends.
+- [[Configure Network Security]]
+- [[Set up Azure App Service access restrictions]]
+
+**Q: You have a VM named VM1 which runs a web app named App1. You need to protect App1 by implementing Web Application Firewall (WAF), what resource should you deploy?**
+**A:** *Azure Application Gateway*. WAF is a tier of Application Gateway. If you want to deploy WAF, you must deploy Application Gateway and select the WAF or WAF V2 tier.
+- [[Configure Network Security#Implement an Azure Application Gateway|Implement an Azure Application Gateway]]
+- [[What is Azure Application Gateway]]
 
 **Q: **
 **A:**

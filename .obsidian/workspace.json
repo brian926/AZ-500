@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cd8c8bfdd7b93b9d",
+            "id": "1f488fd811b4ad49",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Az Practice Exam.md",
+                "file": "Docs/What is Azure Application Gateway.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/Using the location condition in a Conditional Access policy.md",
+                "file": "Docs/Integrate Azure Services with Virtual Networks for Network Isolation.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Az Practice Exam.md",
+                "file": "Docs/What is Azure Application Gateway.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Az Practice Exam.md",
+                "file": "Docs/What is Azure Application Gateway.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Az Practice Exam.md"
+                "file": "Docs/What is Azure Application Gateway.md"
               }
             }
           }
@@ -178,10 +178,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cd8c8bfdd7b93b9d",
+  "active": "d1f26af3706b658b",
   "lastOpenFiles": [
-    "Docs/Using the location condition in a Conditional Access policy.md",
     "Az Practice Exam.md",
+    "Docs/What is Azure Application Gateway.md",
+    "Docs/Set up Azure App Service access restrictions.md",
+    "Docs/Connectivity Architecture for Azure SQL Managed Instance.md",
+    "Docs/Integrate Azure Services with Virtual Networks for Network Isolation.md",
+    "Docs/Virtual Network Service Endpoints.md",
+    "Docs/Using the location condition in a Conditional Access policy.md",
+    "Deplo.md",
     "Docs/Authentication and authorization in Azure App Service and Azure Functions.md",
     "Compar.md",
     "Docs/Azure Custom roles.md",
@@ -211,13 +217,7 @@
     "Implement Platform Protection/Enable Containers Security.md",
     "Implement Platform Protection/Configure and Manage Host Security.md",
     "Implement Platform Protection/Configure Network Security.md",
-    "Implement Platform Protection/Implement Perimeter Security.md",
-    "Secure Data and Applications/Configure and Manage SQL Database Security.md",
     "PNGs",
-    "Secure Data and Applications/Implement Storage Security.md",
-    "Secure Data and Applications/Deploy and Secure Azure Key Vault.md",
-    "Manage Security Operation/Configure and Monitor Microsoft Sentinel.md",
-    "Manage Security Operation/Configure and Manage Azure Monitor.md",
     "Manage Security Operation",
     "Secure Data and Applications",
     "Manage Identity and Access",
